@@ -1,5 +1,5 @@
 package foo
 
 class Foo {
-  def foo = new bar.Bar().bar
+  def bar2 = bar.Bar2.bar2
 }

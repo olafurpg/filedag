@@ -1,5 +1,6 @@
 package bar
 
-class Bar {
-  def bar = 42
+class Bar[T]
+object Bar {
+  implicit val bar = new Bar[Int]
 }
