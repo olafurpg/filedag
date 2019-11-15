@@ -1,0 +1,4 @@
+package foo
+class Foo {
+  def foo = new Bar().bar
+}
